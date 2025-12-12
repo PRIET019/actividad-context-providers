@@ -8,7 +8,7 @@ export default function HomePage() {
     const logout = ()=>{
         console.log(`Eliminando autenticación`);
     }
-    const user = {name:"John Doe"};
+    const user = {name:"Pablo"};
 
     // Eliminar
     const language = "en";
@@ -17,6 +17,8 @@ export default function HomePage() {
         return translations[language][key];
     }
     /* --------------------------- */
+    
+
     const name = user?.name ?? "Usuario";
 
     const handleLogout = () => {
